@@ -1,0 +1,51 @@
+{
+  "name": "gigaretry",
+  "version": "1.0.0",
+  "description": "Flexible, fail-safe retry mechanism with exponential backoff, logging, timeout, and optional child process execution.",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "giga",
+    "gigaretry",
+    "retry",
+    "retry-logic",
+    "backoff",
+    "exponential-backoff",
+    "nodejs",
+    "utility",
+    "resilience",
+    "fail-safe",
+    "child process",
+    "timeout",
+    "logger",
+    "robust",
+    "resilient"
+  ],
+  "author": "Namit Sharma",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MelasMalephar/gigaretry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MelasMalephar/gigaretry/issues"
+  },
+  "homepage": "https://github.com/MelasMalephar/gigaretry#readme",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  },
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://buymeacoffee.com/devnamit"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "types/",
+    "README.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,9 @@
+test/
+types/
+*.test.js
+.npmignore
+.gitignore
+README.md~
+LICENSE~
+.vscode/
+node_modules/
