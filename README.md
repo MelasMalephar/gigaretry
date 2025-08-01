@@ -22,9 +22,7 @@
 ```bash
 npm install gigaretry
 ✨ Usage
-js
-Copy
-Edit
+
 const { retryOperation } = require('gigaretry');
 
 let count = 0;
