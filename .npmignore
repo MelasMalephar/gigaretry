@@ -1,9 +1,26 @@
-test/
-types/
-*.test.js
-.npmignore
-.gitignore
-README.md~
-LICENSE~
-.vscode/
+# Dev dependencies
 node_modules/
+coverage/
+test/
+test-results/
+examples/
+.vscode/
+*.log
+
+# Config files
+jest.config.js
+babel.config.js
+tsconfig.json
+ci.yml
+.github/
+
+# Docs (optional)
+README.md
+# TypeScript sources (keep .d.ts files)
+*.ts
+!*.d.ts
+!index.d.ts
+
+# Ensure build output is included (adjust if your output dir is different)
+!dist/
+!lib/

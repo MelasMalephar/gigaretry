@@ -1,8 +1,16 @@
+# Node
 node_modules/
 dist/
-.env
-*.log
 coverage/
-*.tsbuildinfo
-.DS_Store
+test-results/
+**/*.log
+# Environment
+.env
+# IDEs and OS
 .vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Jest
+jest-test-results.json
