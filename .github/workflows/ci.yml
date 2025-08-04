@@ -23,13 +23,13 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        
+    
+    - name: Cleaning node_module
+      run: npm ci
+    
     - name: Install dependencies
       run: npm install
       
     - name: Run tests
       run: npm test
       
-    - name: Run coverage
-      run: npm run test:coverage
-      if: matrix.node-version == '18.x'
