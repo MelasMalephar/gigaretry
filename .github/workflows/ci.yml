@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x, 18.x, 20.x]
+        node-version: [16.x, 18.x, 20.x]
 
     steps:
     - name: Checkout code
@@ -23,12 +23,12 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install
     
     - name: Cleaning node_module
       run: npm ci
-    
-    - name: Install dependencies
-      run: npm install
       
     - name: Run tests
       run: npm test
